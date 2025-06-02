@@ -10,12 +10,12 @@ class Header extends React.Component {
             Anime-NBP
           </Link>
           <nav>
-            <Link to="/" className=" hover:text-gray-300 mr-3">
-              Home
+            <Link to="/favourite" className=" hover:text-gray-300 mr-3">
+              Favourite
             </Link>
 
-            <Link to="/anime" className="hover:text-gray-300">
-              Anime List
+            <Link to="/Login" className="hover:text-gray-300">
+              Login
             </Link>
           </nav>
         </div>

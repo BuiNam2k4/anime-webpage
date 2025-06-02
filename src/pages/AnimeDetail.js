@@ -51,7 +51,7 @@ class AnimeDetail extends React.Component {
             alt={anime.title}
             className="w-full md:w-1/3 rounded-lg"
           />
-          <div className="text-blue">
+          <div className="text-blue text-xl">
             <p className="mb-4">{anime.synopsis}</p>
             <p>
               <strong>Episodes:</strong> {anime.episodes}

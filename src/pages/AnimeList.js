@@ -57,6 +57,10 @@ class AnimeList extends React.Component {
                 id: anime.mal_id,
                 title: anime.title,
                 image: anime.images.jpg.large_image_url,
+                title_japanese: anime.title_japanese,
+                type: anime.type,
+                episodes: anime.episodes,
+                synopsis: anime.synopsis,
               }}
             />
           ))}
